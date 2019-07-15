@@ -1,0 +1,105 @@
+body {
+		background: url('image/bb.jpg') no-repeat;
+		background-size: cover;
+
+	}
+.container{
+	width:1000px;
+	height:450px;
+	text-align:center;
+	background-color:rgba(52,73,94,0.5);
+	border-radius:4px;
+	margin:0 auto;
+	margin-top:40px;
+}
+
+.container img{
+	width : 120px;
+	height:120px;
+	margin-top:-60px;
+	margin-bottom:30px;
+}
+
+.form-input::before{
+	position:absolute;
+	font-family:"FontAwesome";
+	padding-left:3px;
+	color:#fff;
+	padding-top:2px;
+	font-size:35px;
+}
+
+.btn{
+	width:110px;
+	-webkit-transition:all .2s;
+	background:#FCF3CF;
+	line-height:40px;
+	text-align:center;
+	font-weight:blood;
+	color:black;
+	border-radius:5px;
+	box-shadow:0px 0px 2px rgba(0,0,0,.5),
+	3px 3px 5px rgba(0,0,0,.3);
+	cursor:pointer;
+}
+.btn:hover{
+	background:rgba(52,73,94,0.5);
+	color:#e3e3e3;
+}
+.crt{
+	width:200px;
+	padding-left:0px;
+	padding:15px 30px;
+	color:#fff;
+	border-radius:4px;
+	border:none;
+	background-color:#2ECC71;
+	border-bottom:4px solid #27AE60;
+}
+a{
+	color:#fff;
+}
+h1 {
+    text-align: center;
+	margin-top:50px;
+}
+
+/************************/
+
+ul{
+		padding: 1px;
+		list-style: none;
+		font-family:Tempus Sans ITC;
+		border:3px;
+	}
+ul li{
+		float:right;
+		width: 198.6px;
+		height:40px;
+		background-color: #FCF3CF;
+		opacity: .8;
+		line-height:45px;
+		text-align: center;
+		font-size: 21px;
+		margin-right: 1px;
+		
+
+	}
+ul li a{
+		text-decoration: none;
+		color: black;
+		display: block;
+		height:40px;
+	}
+ul li a:hover{
+		background-color: rgba(52,73,94,0.5);
+		color: black;
+		height:40px;
+	}
+ul li ul li{
+		display: none;
+	}
+ul li:hover ul li{
+		display:block;
+	}
+/**************************************/
